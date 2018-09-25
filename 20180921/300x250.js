@@ -279,6 +279,18 @@ p.nominalBounds = new cjs.Rectangle(-39.5,-39,79,78);
 p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 
 
+(lib.元件46 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.instance = new lib.t23();
+	this.instance.parent = this;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件46, new cjs.Rectangle(0,0,122,35), null);
+
+
 (lib.元件44 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -473,18 +485,6 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 }).prototype = getMCSymbolPrototype(lib.元件12, new cjs.Rectangle(0,0,18,21), null);
 
 
-(lib.元件11 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.t23();
-	this.instance.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件11, new cjs.Rectangle(0,0,122,35), null);
-
-
 (lib.元件7 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -569,6 +569,19 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 }).prototype = getMCSymbolPrototype(lib.元件1, new cjs.Rectangle(0,0,71,12), null);
 
 
+(lib.元件45 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.instance = new lib.元件19();
+	this.instance.parent = this;
+	this.instance.setTransform(117.5,28,1,1,0,0,0,117.5,28);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件45, new cjs.Rectangle(0,0,235,56), null);
+
+
 (lib.元件43 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -628,69 +641,27 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 p.nominalBounds = new cjs.Rectangle(3,3,169,46);
 
 
-(lib.元件29 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.元件28();
-	this.instance.parent = this;
-	this.instance.setTransform(32.3,45.3,1,1,0,0,0,32.3,45.3);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:32.4,scaleX:0.91,scaleY:0.91,x:32.4},5,cjs.Ease.cubicInOut).to({regX:32.3,scaleX:1,scaleY:1,x:32.3},6,cjs.Ease.cubicInOut).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,43,50);
-
-
-(lib.元件27 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.元件30();
-	this.instance.parent = this;
-	this.instance.setTransform(8.5,9.5,1,1,0,0,0,8.5,9.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:0.81,scaleY:0.81,x:9.6,y:10.2},5,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1,x:8.5,y:9.5},6,cjs.Ease.quadInOut).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,17,19);
-
-
-(lib.元件26 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.元件31();
-	this.instance.parent = this;
-	this.instance.setTransform(16.4,38.6,1,1,0,0,0,16.4,38.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:0.93,scaleY:0.93},5).to({scaleX:1,scaleY:1},5).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,48,45);
-
-
 (lib.元件24 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// 元件 28
-	this.instance = new lib.元件29();
+	this.instance = new lib.元件28();
 	this.instance.parent = this;
-	this.instance.setTransform(64.9,47.3,1,1,0,0,0,35.9,47.3);
+	this.instance.setTransform(61.3,45.3,1,1,0,0,0,32.3,45.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(13));
 
 	// 元件 27
-	this.instance_1 = new lib.元件27();
+	this.instance_1 = new lib.元件30();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(5.5,70.5,1,1,0,0,0,8.5,9.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(13));
 
 	// 元件 26
-	this.instance_2 = new lib.元件26();
+	this.instance_2 = new lib.元件31();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(212,21.5,1,1,0,0,0,24,22.5);
+	this.instance_2.setTransform(204.4,37.6,1,1,0,0,0,16.4,38.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(13));
 
@@ -715,13 +686,14 @@ p.nominalBounds = new cjs.Rectangle(-3,-1,239,81);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 圖層 1
-	this.instance = new lib.元件19();
+	this.instance = new lib.元件45();
 	this.instance.parent = this;
 	this.instance.setTransform(117.5,28,1,1,0,0,0,117.5,28);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:117.6,regY:28.1,scaleX:0.96,scaleY:0.96,x:117.7,y:28.1},6).to({regX:117.5,regY:28,scaleX:1,scaleY:1,x:117.5,y:28},3).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.元件21, new cjs.Rectangle(0,0,235,56), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,235,56);
 
 
 (lib.元件20 = function(mode,startPosition,loop) {
@@ -776,10 +748,24 @@ p.nominalBounds = new cjs.Rectangle(0,0,270.2,98.4);
 	this.instance.parent = this;
 	this.instance.setTransform(66,18,1,1,0,0,0,66,18);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({regY:18.1,scaleX:0.91,scaleY:0.91,x:66.1,y:18.1},6,cjs.Ease.cubicInOut).to({regY:18,scaleX:1,scaleY:1,x:66,y:18},3,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:66.1,regY:18.1,scaleX:0.95,scaleY:0.95,x:66.1,y:18.1},6,cjs.Ease.cubicInOut).to({regX:66,regY:18,scaleX:1,scaleY:1,x:66,y:18},3,cjs.Ease.cubicInOut).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,132,36);
+
+
+(lib.元件11 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.instance = new lib.元件46();
+	this.instance.parent = this;
+	this.instance.setTransform(61,17.5,1,1,0,0,0,61,17.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:61.1,regY:17.6,scaleX:0.95,scaleY:0.95,x:61.2,y:17.6},6,cjs.Ease.cubicInOut).to({regX:61,regY:17.5,scaleX:1,scaleY:1,x:61,y:17.5},3,cjs.Ease.cubicInOut).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,122,35);
 
 
 (lib.元件9 = function(mode,startPosition,loop) {
@@ -994,7 +980,7 @@ p.nominalBounds = new cjs.Rectangle(0,-16.5,300,266.6);
 	this.phone.parent = this;
 	this.phone.setTransform(150,197.9,0.947,0.947,0,0,0,150,125.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.phone).to({regY:125,scaleX:1,scaleY:1,y:197.8},60).wait(88).to({regX:150.2,regY:125.3,scaleX:0.7,scaleY:0.7,x:149.1,y:150.6},30,cjs.Ease.cubicInOut).wait(31).to({alpha:0},7).to({_off:true},1).wait(136));
+	this.timeline.addTween(cjs.Tween.get(this.phone).to({regY:125,scaleX:1,scaleY:1,y:197.8},60).wait(88).to({regX:150.2,regY:125.3,scaleX:0.7,scaleY:0.7,x:149.1,y:150.6},14,cjs.Ease.cubicInOut).wait(47).to({alpha:0},7).to({_off:true},1).wait(136));
 
 	// m2.png
 	this.instance_11 = new lib.元件20();
@@ -1002,7 +988,7 @@ p.nominalBounds = new cjs.Rectangle(0,-16.5,300,266.6);
 	this.instance_11.setTransform(323.3,326,1.687,1.687,0,0,0,41.6,41.6);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(152).to({_off:false},0).to({regX:41.5,regY:41.5,scaleX:1,scaleY:1,x:237.5,y:198.5},30,cjs.Ease.cubicInOut).wait(27).to({alpha:0},7).to({_off:true},1).wait(136));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(150).to({_off:false},0).to({regX:41.5,regY:41.5,scaleX:1,scaleY:1,x:237.5,y:198.5},12,cjs.Ease.cubicInOut).wait(47).to({alpha:0},7).to({_off:true},1).wait(136));
 
 	// m1.png
 	this.instance_12 = new lib.元件22();
@@ -1010,7 +996,7 @@ p.nominalBounds = new cjs.Rectangle(0,-16.5,300,266.6);
 	this.instance_12.setTransform(-16.5,307,1.687,1.687,0,0,0,39.5,39);
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(150).to({_off:false},0).to({scaleX:1,scaleY:1,x:73.5,y:201},30,cjs.Ease.cubicInOut).wait(29).to({alpha:0},7).to({_off:true},1).wait(136));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(150).to({_off:false},0).to({scaleX:1,scaleY:1,x:73.5,y:201},12,cjs.Ease.cubicInOut).wait(47).to({alpha:0},7).to({_off:true},1).wait(136));
 
 	// n9.png
 	this.instance_13 = new lib.元件21();
@@ -1018,7 +1004,7 @@ p.nominalBounds = new cjs.Rectangle(0,-16.5,300,266.6);
 	this.instance_13.setTransform(150.7,58.1,1.537,1.537,0,0,0,117.5,28.1);
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(167).to({_off:false},0).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.cubicInOut).to({regY:28,scaleX:1.03,scaleY:1.03,x:150.6,y:57.9},4,cjs.Ease.cubicInOut).to({scaleX:1,scaleY:1},3,cjs.Ease.cubicInOut).wait(28).to({alpha:0},7).to({_off:true},1).wait(136));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(156).to({_off:false},0).to({regY:28,scaleX:1,scaleY:1,x:150.6,y:57.9},7,cjs.Ease.cubicInOut).wait(46).to({alpha:0},7).to({_off:true},1).wait(136));
 
 	// t21.png
 	this.instance_14 = new lib.元件13();
@@ -1077,7 +1063,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/300x250_atlas_.png?1537853669858", id:"300x250_atlas_"}
+		{src:"images/300x250_atlas_.png?1537855893109", id:"300x250_atlas_"}
 	],
 	preloads: []
 };

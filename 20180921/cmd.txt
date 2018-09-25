@@ -1,0 +1,4 @@
+cd dropbox/work/shareLink
+git add *
+git commit -m 'update'
+git push
