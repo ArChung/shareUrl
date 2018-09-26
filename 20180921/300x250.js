@@ -692,13 +692,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,83,83);
 	this.frame_56 = function() {
 		this.phone.gotoAndPlay('play');
 	}
-	this.frame_74 = function() {
-		this.phone.gotoAndPlay('play2');
-		this.w2.gotoAndPlay('play2');
-	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(56).call(this.frame_56).wait(18).call(this.frame_74).wait(185));
+	this.timeline.addTween(cjs.Tween.get(this).wait(56).call(this.frame_56).wait(203));
 
 	// logo
 	this.instance = new lib.元件1();
@@ -882,7 +878,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/300x250_atlas_.png?1537977907543", id:"300x250_atlas_"}
+		{src:"images/300x250_atlas_.png?1537980190346", id:"300x250_atlas_"}
 	],
 	preloads: []
 };
