@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"300x250_v2_atlas_", frames: [[0,0,403,250],[302,252,300,250],[756,357,142,40],[970,526,43,43],[890,205,71,12],[970,454,50,70],[981,329,37,53],[756,277,79,78],[904,120,83,83],[837,320,17,19],[981,277,43,50],[976,389,48,45],[0,252,300,250],[900,389,74,63],[826,399,58,56],[756,399,68,54],[900,320,79,67],[604,223,150,240],[756,223,237,52],[779,181,109,31],[779,120,123,59],[837,277,134,41],[405,0,600,118],[405,120,372,101],[604,465,364,79]]}
+		{name:"300x250_v2_atlas_", frames: [[0,0,403,250],[707,168,300,250],[839,500,142,40],[413,540,43,43],[111,387,71,12],[206,540,50,70],[366,252,37,53],[839,420,79,78],[754,420,83,83],[1007,0,17,19],[368,540,43,50],[318,540,48,45],[405,168,300,250],[754,505,74,63],[258,540,58,56],[136,540,68,54],[920,420,79,67],[602,420,150,240],[0,333,237,52],[0,387,109,31],[239,333,123,59],[0,540,134,41],[0,420,600,118],[0,252,364,79],[405,0,600,166]]}
 ];
 
 
@@ -172,14 +172,14 @@ lib.ssMetadata = [
 
 
 
-(lib.ttt2 = function() {
+(lib.ttt3 = function() {
 	this.spriteSheet = ss["300x250_v2_atlas_"];
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ttt3 = function() {
+(lib.ttt4 = function() {
 	this.spriteSheet = ss["300x250_v2_atlas_"];
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
@@ -285,13 +285,14 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 (lib.元件47 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 圖層 1
-	this.instance = new lib.ttt2();
+	// 圖層 2
+	this.instance = new lib.ttt4();
 	this.instance.parent = this;
+	this.instance.setTransform(-1,-4,0.625,0.625);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.元件47, new cjs.Rectangle(0,0,372,101), null);
+}).prototype = getMCSymbolPrototype(lib.元件47, new cjs.Rectangle(-1,-4,375.2,105), null);
 
 
 (lib.元件39 = function(mode,startPosition,loop) {
@@ -982,7 +983,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/300x250_v2_atlas_.png?1537938089995", id:"300x250_v2_atlas_"}
+		{src:"images/300x250_v2_atlas_.png?1537948737547", id:"300x250_v2_atlas_"}
 	],
 	preloads: []
 };
