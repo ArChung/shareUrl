@@ -281,11 +281,11 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 	// 圖層 3
 	this.instance = new lib._5png複製();
 	this.instance.parent = this;
-	this.instance.setTransform(-25,-7,1.486,1.486);
+	this.instance.setTransform(-37,-4,1.486,1.486);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.元件47, new cjs.Rectangle(-25,-7,445.7,108.5), null);
+}).prototype = getMCSymbolPrototype(lib.元件47, new cjs.Rectangle(-37,-4,445.7,108.5), null);
 
 
 (lib.元件39 = function(mode,startPosition,loop) {
@@ -931,7 +931,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/300x250_atlas_.png?1538032588766", id:"300x250_atlas_"}
+		{src:"images/300x250_atlas_.png?1538032690878", id:"300x250_atlas_"}
 	],
 	preloads: []
 };
