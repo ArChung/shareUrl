@@ -813,16 +813,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,270.2,98.4);
 	// 元件 3
 	this.instance_11 = new lib.元件3();
 	this.instance_11.parent = this;
-	this.instance_11.setTransform(42.2,314.5,0.75,0.75,-21.7,0,0,2.8,65.6);
+	this.instance_11.setTransform(43.2,320.6,0.709,0.709,-21.7,0,0,2.8,65.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({rotation:-25.9,guide:{path:[42.4,314.5,42.4,314.7,42.4,314.9,42.4,313.4,42.9,311.9,43.9,309,46.3,308.5,46.6,308.4,47,308.4,48.8,308,51.3,307.5,53.6,307.6,54.4,310.4,54.8,312.1,55.3,313.6,55.9,316.2,56.3,318.4,56.3,317.9,57.8,315.7,59.6,313.1,61,312.4,62.9,311.6,64.8,311.7,67.1,311.8,68,313.2,68.7,314.4,69.8,319.3,70.3,321.7,70.6,323.7,72,320.3,73.3,316.6,75.9,309.1,76,306.8,76,301.3,76,297.6,76,290.6,77,288.1,78.1,285.5,79.6,284.8,79.6,284.8,82.6,284.1,84.9,283.7,86.3,284.9,88.1,286.5,88.1,290.6,88.1,293.9,87.6,298.4,87.1,302.9,87.1,303.8,87.1,306.5,86.8,313.9,85.7,318.4,85.2,320.6,84.7,322.9,84.7,322.8]}},33,cjs.Ease.quadInOut).wait(16).to({regY:65.7,y:323},0).to({regX:2.9,regY:65.3,scaleX:0.63,scaleY:0.63,rotation:83.4,x:61.7,y:213.3},8).to({x:76,y:237.8},5,cjs.Ease.cubicInOut).to({x:73.2,y:236},4,cjs.Ease.quadInOut).wait(30).to({alpha:0},8).to({_off:true},1).wait(157));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({regX:2.9,regY:65.7,rotation:-25.9,guide:{path:[43.4,320.5,43.4,320.7,43.4,320.8,43.4,319.4,43.8,318,44.7,315.3,47,314.8,47.3,314.8,47.7,314.7,49.5,314.3,51.8,313.9,53.9,314,54.7,316.6,55.1,318.2,55.5,319.7,56.1,322.1,56.5,324.1,56.5,323.7,58,321.6,59.6,319.1,60.9,318.5,62.7,317.7,64.5,317.8,66.7,318,67.5,319.2,68.2,320.4,69.2,325,69.7,327.3,70,329.2,71.3,326,72.5,322.4,74.9,315.4,75.1,313.2,75,308,75,304.5,75,297.9,76,295.5,77.1,293.1,78.4,292.5,78.5,292.5,81.4,291.8,83.4,291.4,84.8,292.6,86.5,294,86.5,297.9,86.5,301,86,305.3,85.6,309.6,85.6,310.4,85.6,312.9,85.3,319.9,84.3,324.2,83.8,326.4,83.3,328.5,83.3,328.4]}},33,cjs.Ease.quadInOut).wait(16).to({regX:2.8},0).to({regX:2.9,regY:65.3,scaleX:0.63,scaleY:0.63,rotation:83.4,x:61.7,y:213.3},8).to({x:76,y:237.8},5,cjs.Ease.cubicInOut).to({x:73.2,y:236},4,cjs.Ease.quadInOut).wait(30).to({alpha:0},8).to({_off:true},1).wait(157));
 
 	// 元件 5
 	this.instance_12 = new lib.元件51();
 	this.instance_12.parent = this;
-	this.instance_12.setTransform(51.6,354.1,0.75,0.75,0,0,0,149.9,125.1);
+	this.instance_12.setTransform(52.1,357.9,0.709,0.709,0,0,0,149.8,125.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(47).to({regX:150,regY:125.2,scaleX:0.63,scaleY:0.63,x:50.7,y:311.1},12,cjs.Ease.quadInOut).wait(37).to({alpha:0},8).to({_off:true},1).wait(157));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(47).to({regX:150,scaleX:0.63,scaleY:0.63,x:50.7,y:311.1},12,cjs.Ease.quadInOut).wait(37).to({alpha:0},8).to({_off:true},1).wait(157));
 
 	// m2.png
 	this.w2 = new lib.元件20();
@@ -874,7 +874,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/120x600_atlas_.png?1538126535890", id:"120x600_atlas_"}
+		{src:"images/120x600_atlas_.png?1538131704990", id:"120x600_atlas_"}
 	],
 	preloads: []
 };

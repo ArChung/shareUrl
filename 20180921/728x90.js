@@ -852,19 +852,19 @@ p.nominalBounds = new cjs.Rectangle(0,0,270.2,98.4);
 	// ttt2.png
 	this.instance_6 = new lib.元件47();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(286.1,74.8,0.148,0.148,0,0,0,186.8,51.6);
+	this.instance_6.setTransform(285.1,74.7,0.148,0.148,2.1,0,0,187.2,51.4);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(58).to({_off:false},0).to({regX:186.5,regY:51,scaleX:0.41,scaleY:0.41,x:284.5,y:64.3,alpha:1},5,cjs.Ease.quadInOut).to({regX:186.3,scaleX:0.36,scaleY:0.36,x:284.6,y:65.1},3,cjs.Ease.quadInOut).wait(28).to({alpha:0},8,cjs.Ease.quadInOut).to({_off:true},1).wait(159));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(58).to({_off:false},0).to({regX:186.5,regY:51.1,scaleX:0.41,scaleY:0.41,x:283.8,y:64.1,alpha:1},5,cjs.Ease.quadInOut).to({regY:51,scaleX:0.36,scaleY:0.36,x:283.9,y:65},3,cjs.Ease.quadInOut).wait(28).to({alpha:0},8,cjs.Ease.quadInOut).to({_off:true},1).wait(159));
 
 	// ttt1.png
 	this.instance_7 = new lib.元件48();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(282.8,27.6,0.64,0.64,0,0,0,300.3,59.3);
+	this.instance_7.setTransform(283.6,27.4,0.64,0.64,2.1,0,0,300.4,59.1);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(50).to({_off:false},0).to({regX:300.6,scaleX:0.42,scaleY:0.42,y:34},5,cjs.Ease.quadInOut).to({regY:59.4,scaleX:0.44,scaleY:0.44,y:33.6},3,cjs.Ease.quadInOut).wait(36).to({alpha:0},8,cjs.Ease.quadInOut).to({_off:true},1).wait(159));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(50).to({_off:false},0).to({regX:300.6,regY:59.5,scaleX:0.42,scaleY:0.42,x:283.3,y:33.9},5,cjs.Ease.quadInOut).to({scaleX:0.44,scaleY:0.44,rotation:2.2,x:283.4,y:33.4},3,cjs.Ease.quadInOut).wait(36).to({alpha:0},8,cjs.Ease.quadInOut).to({_off:true},1).wait(159));
 
 	// 圖層 19
 	this.instance_8 = new lib.元件24();
@@ -915,18 +915,18 @@ p.nominalBounds = new cjs.Rectangle(0,0,270.2,98.4);
 	// t2.png
 	this.instance_13 = new lib.元件6();
 	this.instance_13.parent = this;
-	this.instance_13.setTransform(293.2,77.7,1.75,1.75,0,0,0,54.6,15.6);
+	this.instance_13.setTransform(292.1,77.9,1.75,1.75,2.2,0,0,54.6,15.6);
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(7).to({_off:false},0).to({regX:54.7,regY:15.7,scaleX:1.2,scaleY:1.2,x:288.8,y:65.5},8,cjs.Ease.quadInOut).to({regX:54.6,regY:15.6,scaleX:1.29,scaleY:1.29,x:289.4,y:67.4},5,cjs.Ease.quadInOut).to({regX:54.7,scaleX:1.26,scaleY:1.26,x:289.3,y:66.8},4,cjs.Ease.quadInOut).wait(15).to({regX:54.6,regY:15.8,scaleX:0.94,scaleY:0.94,x:286.6,y:59.8,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(210));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(7).to({_off:false},0).to({regX:54.8,regY:15.8,scaleX:1.2,scaleY:1.2,x:288.3,y:65.6},8,cjs.Ease.quadInOut).to({regX:54.7,regY:15.7,scaleX:1.28,scaleY:1.28,rotation:2.1,x:288.7,y:67.6},5,cjs.Ease.quadInOut).to({regY:15.6,scaleX:1.26,scaleY:1.26,rotation:2.2,x:288.5,y:66.9},4,cjs.Ease.quadInOut).wait(15).to({regX:54.6,regY:15.9,scaleX:0.94,scaleY:0.94,x:286.2,y:59.8,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(210));
 
 	// t1.png
 	this.instance_14 = new lib.元件2();
 	this.instance_14.parent = this;
-	this.instance_14.setTransform(277.2,26.8,1.442,1.442,0,0,0,118.6,26.1);
+	this.instance_14.setTransform(278,26.5,1.442,1.442,2.2,0,0,118.6,26.1);
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(4).to({_off:false},0).to({regX:118.8,regY:26.2,scaleX:0.99,scaleY:0.99,x:277.3,y:32},8,cjs.Ease.quadInOut).to({regX:118.7,regY:26.1,scaleX:1.06,scaleY:1.06,y:31.2},5,cjs.Ease.quadInOut).to({scaleX:1.04,scaleY:1.04,x:277.2,y:31.4},4,cjs.Ease.quadInOut).wait(16).to({regX:118.8,regY:26.4,scaleX:0.77,scaleY:0.77,x:277.3,y:34.6,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(212));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(4).to({_off:false},0).to({regX:118.9,regY:26.2,scaleX:0.99,scaleY:0.99,y:31.7},8,cjs.Ease.quadInOut).to({regX:118.8,regY:26.1,scaleX:1.06,scaleY:1.06,x:277.9,y:30.8},5,cjs.Ease.quadInOut).to({regX:118.7,scaleX:1.04,scaleY:1.04,x:277.8,y:31},4,cjs.Ease.quadInOut).wait(16).to({regX:118.9,regY:26.4,scaleX:0.77,scaleY:0.77,rotation:2.1,y:34.2,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(212));
 
 	// bg
 	this.instance_15 = new lib.元件55();
@@ -946,7 +946,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/728x90_atlas_.png?1538115344796", id:"728x90_atlas_"}
+		{src:"images/728x90_atlas_.png?1538131903285", id:"728x90_atlas_"}
 	],
 	preloads: []
 };
