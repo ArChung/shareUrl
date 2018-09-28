@@ -861,19 +861,19 @@ p.nominalBounds = new cjs.Rectangle(0,0,270.2,98.4);
 	// ttt2.png
 	this.instance_7 = new lib.元件47();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(320.1,175.2,0.231,0.231,0,0,0,186.6,51.3);
+	this.instance_7.setTransform(312.1,173.7,0.271,0.271,0,0,0,186.6,51.4);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(58).to({_off:false},0).to({regX:186.3,regY:50.9,scaleX:0.63,scaleY:0.63,x:317.6,y:158.8,alpha:1},5,cjs.Ease.quadInOut).to({regY:50.8,scaleX:0.56,scaleY:0.56,x:317.9,y:160},3,cjs.Ease.quadInOut).wait(28).to({alpha:0},8,cjs.Ease.quadInOut).to({_off:true},1).wait(159));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(58).to({_off:false},0).to({regX:186.4,regY:51,scaleX:0.74,scaleY:0.74,x:309.2,y:154.5,alpha:1},5,cjs.Ease.quadInOut).to({regX:186.3,regY:50.9,scaleX:0.66,scaleY:0.66,x:309.4,y:156},3,cjs.Ease.quadInOut).wait(28).to({alpha:0},8,cjs.Ease.quadInOut).to({_off:true},1).wait(159));
 
 	// ttt1.png
 	this.instance_8 = new lib.元件48();
 	this.instance_8.parent = this;
-	this.instance_8.setTransform(322.9,93.6,0.996,0.996,0,0,0,300.3,59.1);
+	this.instance_8.setTransform(315.3,78.3,1.167,1.167,0,0,0,300.3,59.2);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(50).to({_off:false},0).to({regX:300.4,regY:59.2,scaleX:0.65,scaleY:0.65,x:322.8,y:103.8},5,cjs.Ease.quadInOut).to({scaleX:0.68,scaleY:0.68,y:103.1},3,cjs.Ease.quadInOut).wait(36).to({alpha:0},8,cjs.Ease.quadInOut).to({_off:true},1).wait(159));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(50).to({_off:false},0).to({regX:300.4,scaleX:0.76,scaleY:0.76,x:315.2,y:90.1},5,cjs.Ease.quadInOut).to({regY:59.3,scaleX:0.79,scaleY:0.79,x:315.1,y:89.4},3,cjs.Ease.quadInOut).wait(36).to({alpha:0},8,cjs.Ease.quadInOut).to({_off:true},1).wait(159));
 
 	// 圖層 19
 	this.instance_9 = new lib.元件24();
@@ -924,18 +924,18 @@ p.nominalBounds = new cjs.Rectangle(0,0,270.2,98.4);
 	// t2.png
 	this.instance_14 = new lib.元件6();
 	this.instance_14.parent = this;
-	this.instance_14.setTransform(336,176.5,2.726,2.726,0,0,0,54.6,15.6);
+	this.instance_14.setTransform(330.6,175.3,3.192,3.192,0,0,0,54.6,15.6);
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(7).to({_off:false},0).to({regY:15.7,scaleX:1.87,scaleY:1.87,x:329,y:157.6},8,cjs.Ease.quadInOut).to({regY:15.6,scaleX:2,scaleY:2,x:330.1,y:160.6},5,cjs.Ease.quadInOut).to({scaleX:1.96,scaleY:1.96,x:329.7,y:159.6},4,cjs.Ease.quadInOut).wait(15).to({regY:15.7,scaleX:1.46,scaleY:1.46,x:325.7,y:148.6,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(210));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(7).to({_off:false},0).to({regY:15.7,scaleX:2.19,scaleY:2.19,x:322.4,y:153.1},8,cjs.Ease.quadInOut).to({regY:15.6,scaleX:2.34,scaleY:2.34,x:323.7,y:156.6},5,cjs.Ease.quadInOut).to({scaleX:2.3,scaleY:2.3,x:323.3,y:155.5},4,cjs.Ease.quadInOut).wait(15).to({regY:15.8,scaleX:1.71,scaleY:1.71,x:318.6,y:142.7,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(210));
 
 	// t1.png
 	this.instance_15 = new lib.元件2();
 	this.instance_15.parent = this;
-	this.instance_15.setTransform(314.2,92.7,2.246,2.246,0,0,0,118.6,26.1);
+	this.instance_15.setTransform(305.1,77,2.631,2.631,0,0,0,118.6,26.1);
 	this.instance_15._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(4).to({_off:false},0).to({regX:118.7,regY:26.2,scaleX:1.54,scaleY:1.54,y:100.8},8,cjs.Ease.quadInOut).to({regX:118.6,regY:26.1,scaleX:1.65,scaleY:1.65,x:314.1,y:99.4},5,cjs.Ease.quadInOut).to({regX:118.7,scaleX:1.62,scaleY:1.62,x:314.2,y:99.7},4,cjs.Ease.quadInOut).wait(16).to({regY:26.2,scaleX:1.2,scaleY:1.2,x:314.1,y:104.6,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(212));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(4).to({_off:false},0).to({regX:118.7,regY:26.2,scaleX:1.8,scaleY:1.8,x:305,y:86.6},8,cjs.Ease.quadInOut).to({regY:26.1,scaleX:1.93,scaleY:1.93,x:305.2,y:84.9},5,cjs.Ease.quadInOut).to({scaleX:1.89,scaleY:1.89,x:305.1,y:85.3},4,cjs.Ease.quadInOut).wait(16).to({regY:26.3,scaleX:1.41,scaleY:1.41,x:305,y:91.1,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(212));
 
 	// bg
 	this.instance_16 = new lib.bg();
@@ -955,7 +955,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/970x250_atlas_.png?1538098757905", id:"970x250_atlas_"}
+		{src:"images/970x250_atlas_.png?1538102768957", id:"970x250_atlas_"}
 	],
 	preloads: []
 };
