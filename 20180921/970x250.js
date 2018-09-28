@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"970x250_atlas_", frames: [[754,480,139,131],[402,372,155,121],[754,354,169,124],[0,0,403,250],[0,522,300,73],[707,0,300,250],[302,575,142,40],[709,596,43,43],[895,541,50,92],[947,541,42,64],[402,495,79,78],[925,354,83,83],[1004,252,17,19],[352,522,43,50],[302,522,48,45],[405,0,300,250],[483,495,79,67],[602,354,150,240],[895,480,123,59],[446,575,134,41],[0,252,600,118],[0,372,364,79],[602,252,400,100],[0,453,400,67],[582,596,125,20]]}
+		{name:"970x250_atlas_", frames: [[329,375,139,131],[329,252,155,121],[158,252,169,124],[0,0,403,250],[0,440,142,40],[457,69,43,43],[405,69,50,92],[405,163,42,64],[243,378,79,78],[158,378,83,83],[293,458,17,19],[449,163,43,50],[243,458,48,45],[405,0,79,67],[0,252,156,186]]}
 ];
 
 
@@ -39,149 +39,79 @@ lib.ssMetadata = [
 
 
 
-(lib._5png複製 = function() {
+(lib.btn = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.bg = function() {
+(lib.hand = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.btn = function() {
+(lib.m3 = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.hand = function() {
+(lib.m4 = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.m3 = function() {
+(lib.mm2 = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.m4 = function() {
+(lib.mm3 = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mm2 = function() {
+(lib.mo1 = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mm3 = function() {
+(lib.mo2 = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mo1 = function() {
+(lib.mo3 = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mo2 = function() {
+(lib.pen = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mo3 = function() {
+(lib.qwdqwdqwdq = function() {
 	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.n9 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pen = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pp1 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.t42 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.t43 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ttt1 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ttt3 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ty1 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ty2 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.資產4 = function() {
-	this.spriteSheet = ss["970x250_atlas_"];
-	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -259,6 +189,123 @@ p.nominalBounds = new cjs.Rectangle(-39.5,-39,79,78);
 p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 
 
+(lib.元件63 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#219CD8").s().p("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");
+	this.shape.setTransform(144.1,44);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件63, new cjs.Rectangle(0,0,288.1,88.1), null);
+
+
+(lib.元件62 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#231916").s().p("AukGuIB5gOQgLgcgPgYIAngZIhRAKIgCicQgbAQgYAJIgVg2QAsgUAoghQgVgVgbgXIA4gzQAbAUAWAWQAbgeAZgnIimASIgBg+ID1gdIAAATQAOAPAHAFQApgWAmgkIAuAlQgjAkgrAcQANALAPAKQAogeAegpIAyAmQgeAngmAeQAnAZAsASIgtBDIgdgQIACCeIhWAKIAxAJQgTArgMAWICEgQIABBCInZA3gAsHFRQAQAXAMAdIgoAYIB9gOQAPglANgqgAszDjIABAxIDpgbIAAgygAsaB8QgWAUgXATIEdghQgagRgbgWIABAPIisAUIgBgSgArgA7IBRgKQgbgagQgSQgWAhgQAVgAlbFeIBPgUIgCiNIhEAIIgBhBIBEgIIAAgnIgoAEIAAgnIgLALIgugtQAiglAXgnQAYgnARguIA8ANIgGAPQAwAZAlAgIgpA+QgjgggkgYIgNAaQgRAdgPATIB7gOIABBCIguAGIAAAmIA/gHIABBCIg/AHIABCCQAmgLAZgJIACAMQAugtAjg1IAjAkQgrBLgwAtIgSgTIABAJQhbAlhiAdgAhDGLIgMhDQATAGATgDQALgBAEgIQAEgMAAgUIgCjBIhrAMIgBg6ICUgRIAIghIhYAKIgFAVIg5gEIAwi+IA5ADIgFAXICUgRIgwC0IBGgJIABA8IhxAMIAAA9QAEAIAJAOQAZgjAQgpIAwAaQgbA6geAlQAhAnArAUIgdBCQgggRgeggQgOgQgPgYIABAvQABAxgNATQgQAXgmAEIgOABQgLAAgKgCgAgphOIgJAjIBXgKIAIgkgADrEkIA/gqIgBh8Ig7AHIgBhFIB4gOIACC1QAWAPAYAFIgYg3QBGgjAggxQAQgXAGgbIiAAPIgBhEICLgQIAAgFQABgEgBgzIh4ANIgBhDIBHgJQgNgbgVgZIA2guQAbAgARAiIgkAdIBIgJQATguAOg1IBIANQgQArgTAjIBFgIIABBEIh/APIAAA+ICTgSIABBDIiBAQQAHARAKAMQAQAWAdARQAaAPAoALIggBIQgrgMgrghQgfgYgTghQgKAWgNATQgsA6hKAlQANADALgCQAeAECLgQQBQgKA0gSQgSAngJAsIijATQhYALg0gJQgmgGglggIg4BRQgbgtgSgXgAlhDxIA3gaQANAkAKAxIg5AaQgHgxgOgkgAjMETQAKgtAFgmIA5AIQgHAtgKAogAh/CXIAuglQAVAeAMAgIgxAmQgLgfgTgggADqgZIAtg7QAiASAeAaIgrBBQgggdgigVgAEOiOIAtg6QAjARAfAdIgrBCQgigigigUgAOijtQADiDhJg6Qg2gshZgBIhPAGIgGgWIBYgJQBfADA8AwQBSBCgDCOgALXkQQgMgKgVABIgTACIgGgXIAagDQAcAAASANQAYASABAkIgYABQAAgZgPgKgAM4kCQACgpgZgYQgbgag1gGIgwgDIgCgXIA4ACQA7AJAfAeQAhAfgCA1g");
+	this.shape.setTransform(95.4,49.7);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件62, new cjs.Rectangle(0,0,190.8,99.3), null);
+
+
+(lib.元件61 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("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");
+	this.shape.setTransform(124.9,27);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件61, new cjs.Rectangle(0,0,249.8,53.9), null);
+
+
+(lib.元件60 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AjWAPIAAgFIARAAIAAAGQAAAGAGAAQAFAAABgFQAAAAAAgBQABAAAAgBQAAAAgBgBQAAAAAAgBQgBgDgNgIQgMgFgCgHIAAgIQACgOATAAQAVAAAAAPIAAAFIgPAAIAAgEQAAgGgGABQgEAAgBADIAAAEQABADAMAHQANAGACAGIAAALQgCAOgVAAQgVAAgBgSgAgOAPIAAgFIAQAAIAAAGQgBAGAHAAQAEgBABgEIAAgEQgBgDgMgIQgLgFgCgHIgBgIQADgNASAAQAVAAAAAOIAAAFIgQAAIAAgEQAAgFgFAAQgFgBgBAFIAAADQABACAMAIQANAGABAGIAAAKQgBAOgUABQgVAAAAgSgAArARIAAgvIAPAAIAAAtIABACQAAAEAFAAQAFAAACgEIAAgvIAPAAIAAAvQgCAPgUAAQgTAAgCgPgACrAQIAAgDIAAgZIAAgFQACgOATAAQAVAAABAOIAAAFIAAACIgPAAIAAgGQAAgFgHABQgFgBAAAFIgBADIAAAdQABAFAFgBQAHABAAgFIAAgCIAAgJIgHAAIAAgIIAXAAIAAAQIgBADQgBAQgVAAQgUAAgBgQgAgsAfIgBg5IgKA5IgQAAIgKg5IgBA5IgPAAIABg9IAZAAIAIAvIAIgvIAYAAIACA9gAh+AfIgIg5IgJA5IgQAAIALg9IAbAAIAMA9gACFAdIgPgxIAAAxIgPAAIAAg7IAXAAIAOAwIgBgwIAPAAIAAA7g");
+	this.shape.setTransform(21.5,3.3);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件60, new cjs.Rectangle(0,0,42.9,6.6), null);
+
+
+(lib.元件59 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("A9WDhIAxgGIgHBdIAoAdIAAjOIhlAKIAAgzIBlgKIAAhDIhYAKIAAgyIBYgKIAAg6IAzgEIAAA4IBSgIIAAAyIhSAJIAABCIBhgKIAAAzIhhAKIAAA4IBKgHIAAA0IhKAIIAACGIGKgpIAAA1ImiAsIhJgxIgHBQIgzAFgAyzFWIA9gHIgCiiIgiAyIhAAGIBciOIgXhCIgQAYIhAAGIA7hZIgjhlIA3gGIARAyIAlg3IBAgHIhOB6IApB1IAEEsIhyAMgAwVEvICTgPIAAizIhxALIAAg3IBxgNIAAiRIh8ANIAAg4IEvgfIAAA3Ih8ANIAACSIBwgMIAAA4IhwAMIAACzICTgQIAAA4IldAkgA5GCVIDvgZIAACzIjvAagA4YC/IAABVICTgPIAAhWgAnuAxIFeglIAAEOIleAkgAm8DIIAAA+ID5gbIAAg9gAm8BeIAAA2ID5gbIAAg1gABmBBIA7gHIgoDMIg6AGgAD3j7IB5gNIAAguIA4gGIAAAuIB4gNIAAERIheAKIAkA7IAcgWIBjgLIhkBOIBEBzIhBAGIiDjbIhQAJIAACWIBOgbIAAA4IiIAvgAExhdIAAA1IC3gTIAAg1gAExjKIAAA1IC3gTIAAg1gAO5ADIiCCIIhRAJIDTjdIAAiwIjqAZIAAg4IDqgYIAAhMIA3gFIAABLIDqgZIAAA3IjqAZIAACwIDbCvIhSAJIiJhsIAACqIg3AHgAXgAkIguAhIhSAJICShrIiQAPIAAgtIDjgYIAAgnIAtgFIAAAoIDogZIAAAtIjWAXIBAAzIAjgeIBQgIIhQBDIA+A0IhBAHIihiEIg0AnIAABAIBJgRIAAAuIh4AdgA4WgwIhFAIIAAgzIEGgcIgJDGIgzAFIAHiSIhYAJIgoCbIgzAFgApMgeICUgPIgahYIg+AGIAAgyIC1gTIAAgqIAzgGIAAAqIC1gTIAAAzIg+AGIgWBeICPgQIAAA0IoUA3gAmciLIAaBZICFgPIAWhcgAMojPIA9gGIgRArIA5BcIhCAHIgSgfIgZBEIg9AGgAA4g5IAAg6IBmASIAAA4gARWjvIA/gHIgUAuIBSBoIhGAHIgngyIgZA4Ig/AHgAVnkeIDRgWIAAC8IgnAEIAAgqIiLAPIgCAqIgoAEgAWIjFIgBARICKgOIAAgSgAWMj8IgBASICGgOIAAgSgAZxlPIDHgVIAAgJIjHAVIAAhzIAmgFIAAAfIDIgVIAAAeIjIAVIAAAPIDKgVIAABYIjKAVIAAALIDIgVIAAAcIjIAWIAAAKIDIgWIAAAcIjIAWIAAAKIDIgVIAAAcIjIAUIAAALIDWgWIAAAnIj8AbgAA4jQIAAg5IBmAQIAAA4gAVIlOIA1gFIgGghIgdAEIAAglIBegKIAAgWIAkgDIAAAVIBlgKIAAAlIgjADIgIAiIA1gGIAAAmIkDAbgAWdl3IAGAfIBNgIIAHghg");
+	this.shape.setTransform(190.1,46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件59, new cjs.Rectangle(0,0,380.2,92.9), null);
+
+
+(lib.元件58 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFF100").s().p("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");
+	this.shape.setTransform(252.3,49.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件58, new cjs.Rectangle(0,0,504.6,99), null);
+
+
+(lib.元件57 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("A9YDWIHFg1IAEFdInFA2gA8VGZIABBQIFDgmIgBhQgA8WERIAABFIFDgnIgBhEgAuGEwIiIB1Ih4AOIC8ihIjZAaIgBhIIEdgiIgBgvIBIgJIAAAwIEagiIACBIIjNAYIDFB0Ih7AOIiYhYIACCfIhGAJgAjNAUIi9AyIgBhAIArgJIgDjzIgvAFIgBg/IEfgiIABA/IghAEIAJKNIg+AHgAkihBIABAsIBTgVIAAghgAkjifIAAAfIBUgKIgBgfgAkkj+IAAAhIBTgKIAAghgAmEE9IAygOIgBg9IgrAFIAAgyIArgFIgBgsIgyAGIgBgzICagSIABAyIgqAFIABAsIAkgEIAAAzIgjAEIAAAyIAmgLIABAzIiWAqgAAACJIBEgIIACCeIC7gXIAABEIj+AfgAhRDGIBFgIIgRCMIhEAIgAJfA+IiCA7IgBhOICDg6IgCiHIiUASIgBhKICUgRIgBheIhsAjIgBhKIEHhWIABBLIhTAaIABBtIDJgXIgCjJIBJgJIACDJIDfgaIABBJIjOAYIApBpIAmg5IBagLIhhCUIBVDaIhNAKIg6iZIhYCBIhaALICSjaIhEisIjVAZIABBwIB2g1IABBNIh2A1IADDtIhIAJgADzCVIBKgJIAuBnIhJAIgA/TBxIC/gWIgjhxIhQAKIgBhDIDqgbIAAg2IBCgIIABA2IDqgcIABBCIhQAKIgbB4IC6gWIABBCIqyBSgA7xgeIAjBwICtgUIAah4gABKBlIBTgJIA9BIIhVAKgAyLAbIhGhOIBGipIBEgIIhBCgIAXAaIAhhUIBCgIIhVDeIA1gLIgEg8IA6gHIAMCWIg7AHIgDgdIiaAigAvcjJIAugFIAZg5IBLgJIgZA5IBugNIAEFPIjnAbgAuagJIABBJIBogMIgBhKgAubiSIABBEIBogMIgChEgAd0iWIASkYIjZAZIgcB/IhKAJIA+kdIBKgJIgSBTIEWghIgXFwIhGEKIhMAJgAqZgpIhIhMIBEiiIBEgIIg/CXIAZAbIAchMIBDgIIhXDlIA4gKIgKhCIA7gHIAXCUIg8AHIgDgWIifAegAUmmjIA4gGIAUhOIBFgIIgUBNIB8gOIAGH2Ij4AdgAVoiYIACCkIB6gNIgCilgAVllsIACCMIB6gPIgCiLgAhTAMIGkgxIABBCImkAygAhMjMICogUIgBgrIixAVIAAhAICxgVIgBgtIBAgIIABAtICygVIABBAIiyAVIAAArICpgUIACCzImRAwgAgPiYIAAA8IAwgGIgBg7gABlilIABA7IAwgGIgBg7gADYizIABA8IAxgGIgBg8gAa6kgIBMgKIAyCZIhOAJgAPhm7IBUgKIBABlIhUAKg");
+	this.shape.setTransform(200.4,56.4);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件57, new cjs.Rectangle(0,0,400.7,112.8), null);
+
+
+(lib.元件56 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFF100").s().p("EgnUAIhQgCgCAAgDIASinQAAgEgCgCQgCgCgDAAIgdADQgDABgCgDQgDgCAAgDIABgnQAAgIAIgBIAigDQAIgBABgIIAMh+QABgDgDgCQgCgDgDABIgvAFQgEAAgCgCQgCgCAAgEIAAgmQAAgIAIgBIA1gFQAIgBABgIIAMhyQABgIAIgBIAngDQADgBACACQADACgBAEIgLBxQgBAIAIgBIBNgHQAIgBABgIIAMhxQABgIAIgBIAmgEQAIAAgBAHIgLByQgBADADACQACACADAAIAfgDQADgBACADQADACAAADIgBAnQAAAIgIABIgkADQgEABgCACQgDADAAADIgNB+QgBAEADACQACACADgBIAygFQAEAAACACQACACAAAEIAAAmQAAAIgIABIg4AGQgEAAgCADQgDACAAADIgRCoQAAADgDADQgCACgEABIgnAEQgIABAAgJIASinQABgDgDgCQgCgDgDABIhNAHQgIABgBAIIgSCoQAAADgDADQgCACgEAAIgnAEIgBAAQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAgBgEgkjACZIhMAIQgIABgBAIIgOB+QgBADADACQACADADgBIBOgIQADAAACgCQADgDAAgDIAOh/QAAgHgGAAIgCAAgEghnAHfQgEAAgDgCQgDgDAAgFIAAngQAAgEADgEQADgDAEgBIEdgeQAEgBAEAEQADADAAAEIAAApQAAAEgDADQgDADgEABIjgAYQgGAAAAAGIAAFwQAAABAAAAQAAABABAAQAAABAAAAQAAAAABABIADABICsgSQAFgBAAgFIAAi4QAAgBAAAAQAAgBAAAAQAAgBgBAAQAAAAAAgBIgEgBIhQAJQgEABgEgEQgDgDAAgEIAAgoQAAgEADgEQADgDAFgBICLgPQAFAAADADQADADAAAFIAAEmQAAAFgDADQgDAEgEAAIkkAfgArQHNQgDAAgEgDQgDgDAAgFIAAglQAAgEADgEQADgDAFgBICqgSQAGgBAAgFIAAhMQAAgBAAAAQAAgBgBAAQAAgBAAAAQAAAAgBgBQAAAAAAgBQgBAAAAAAQgBAAAAAAQgBAAAAAAIitASQgEABgEgDQgDgEAAgEIAAlKQAAgFADgDQADgEAEAAIAqgFQAEAAAEADQADADAAAFIAAEWQAAAAAAABQAAABAAAAQAAAB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");
+	this.shape.setTransform(254.5,54.7);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件56, new cjs.Rectangle(0,0,509,109.5), null);
+
+
+(lib.元件55 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#1E9BD8").s().p("EhLxATiMAAAgnDMCXjAAAMAAAAnDg");
+	this.shape.setTransform(485,125);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件55, new cjs.Rectangle(0,0,970,250), null);
+
+
 (lib.元件53 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -280,41 +327,17 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 }).prototype = getMCSymbolPrototype(lib.元件53, new cjs.Rectangle(107.4,-124.2,393.6,167.6), null);
 
 
-(lib.元件50 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.pp1();
-	this.instance.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件50, new cjs.Rectangle(0,0,150,240), null);
-
-
-(lib.元件49 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.ttt1();
-	this.instance.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件49, new cjs.Rectangle(0,0,600,118), null);
-
-
-(lib.元件47 = function(mode,startPosition,loop) {
+(lib.元件51 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// 圖層 3
-	this.instance = new lib._5png複製();
+	this.instance = new lib.qwdqwdqwdq();
 	this.instance.parent = this;
-	this.instance.setTransform(-37,-4,1.486,1.486);
+	this.instance.setTransform(84,29);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.元件47, new cjs.Rectangle(-37,-4,445.7,108.5), null);
+}).prototype = getMCSymbolPrototype(lib.元件51, new cjs.Rectangle(84,29,156,186), null);
 
 
 (lib.元件39 = function(mode,startPosition,loop) {
@@ -339,45 +362,6 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.元件38, new cjs.Rectangle(0,0,43,43), null);
-
-
-(lib.元件34 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.t42();
-	this.instance.parent = this;
-	this.instance.setTransform(-220,30);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件34, new cjs.Rectangle(-220,30,123,59), null);
-
-
-(lib.元件33 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 2
-	this.instance = new lib.ttt3();
-	this.instance.parent = this;
-	this.instance.setTransform(-258,15,0.758,0.758);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件33, new cjs.Rectangle(-258,0,442,74.9), null);
-
-
-(lib.元件32 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.t43();
-	this.instance.parent = this;
-	this.instance.setTransform(-217,30);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件32, new cjs.Rectangle(-217,30,134,41), null);
 
 
 (lib.元件31 = function(mode,startPosition,loop) {
@@ -467,31 +451,6 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 }).prototype = getMCSymbolPrototype(lib.元件15, new cjs.Rectangle(0,0,63,98.4), null);
 
 
-(lib.元件6 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 2
-	this.instance = new lib.ty2();
-	this.instance.parent = this;
-	this.instance.setTransform(-76,-10,0.604,0.604);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件6, new cjs.Rectangle(-76,-10,241.4,41), null);
-
-
-(lib.元件4 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 1
-	this.instance = new lib.n9();
-	this.instance.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件4, new cjs.Rectangle(0,0,300,250), null);
-
-
 (lib.元件3 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -502,31 +461,6 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.元件3, new cjs.Rectangle(0,0,79,67), null);
-
-
-(lib.元件2 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 2
-	this.instance = new lib.ty1();
-	this.instance.parent = this;
-	this.instance.setTransform(0,0,0.592,0.592);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件2, new cjs.Rectangle(0,0,237,59.3), null);
-
-
-(lib.元件1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層 2
-	this.instance = new lib.資產4();
-	this.instance.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件1, new cjs.Rectangle(0,0,125,20), null);
 
 
 (lib.元件54 = function(mode,startPosition,loop) {
@@ -554,36 +488,17 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 }).prototype = getMCSymbolPrototype(lib.元件54, new cjs.Rectangle(1.1,38.9,17.2,41.4), null);
 
 
-(lib.元件51 = function(mode,startPosition,loop) {
+(lib.元件49 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 圖層 4 (mask)
-	var mask = new cjs.Shape();
-	mask._off = true;
-	mask.graphics.p("ApiEyQgOgIABgXIgBo1QAAgEADgEQAIgJARgBQARgBDgABIDcAAIARAgQASAnABAoQACArANAUQAHANAXAPQAQAKARACQAIABAFgCIADAdQADAeAJALQAMANANAEQAOAEASgDQAggEAOgIQAcgQAEgpQAJhDAGgaQAJg0ARgxIASgmQF3AAAQACQAPABAIAGQAKAIABATIAAIrQgBAJgEAHQgHAKgOAAQgWgByWABIgCAAQgGAAgGgDg");
-	mask.setTransform(154.6,118.8);
-
-	// 元件 50
-	this.instance = new lib.元件50();
+	// 圖層 2
+	this.instance = new lib.元件58();
 	this.instance.parent = this;
-	this.instance.setTransform(154.7,121,0.548,0.548,90,0,0,75,119.9);
-
-	var maskedShapeInstanceList = [this.instance];
-
-	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
-		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
-	}
+	this.instance.setTransform(300,59.2,1.189,1.189,0,0,0,252.3,49.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-	// 圖層 1
-	this.instance_1 = new lib.元件4();
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(150,125,1,1,0,0,0,150,125);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件51, new cjs.Rectangle(0,0,300,250), null);
+}).prototype = getMCSymbolPrototype(lib.元件49, new cjs.Rectangle(0,0.3,600,117.7), null);
 
 
 (lib.元件48 = function(mode,startPosition,loop) {
@@ -592,12 +507,24 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 	// 圖層 1
 	this.instance = new lib.元件49();
 	this.instance.parent = this;
-	this.instance.setTransform(300,59,1,1,0,0,0,300,59);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(8).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1},7,cjs.Ease.quadInOut).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1},7,cjs.Ease.quadInOut).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1},7,cjs.Ease.quadInOut).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1},7,cjs.Ease.quadInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(8).to({regX:300,regY:59,x:300,y:59},0).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1},7,cjs.Ease.quadInOut).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1},7,cjs.Ease.quadInOut).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1},7,cjs.Ease.quadInOut).to({scaleX:0.97,scaleY:0.97},7,cjs.Ease.quadInOut).to({scaleX:1,scaleY:1},7,cjs.Ease.quadInOut).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,600,118);
+p.nominalBounds = new cjs.Rectangle(0,0.3,600,117.7);
+
+
+(lib.元件47 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 4
+	this.instance = new lib.元件59();
+	this.instance.parent = this;
+	this.instance.setTransform(188,49.4,1.184,1.184,0,0,0,190.1,46.4);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件47, new cjs.Rectangle(-37,-5.5,450.1,110), null);
 
 
 (lib.元件43 = function(mode,startPosition,loop) {
@@ -657,6 +584,45 @@ p.nominalBounds = new cjs.Rectangle(0,0,600,118);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(3,3,169,46);
+
+
+(lib.元件34 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 2
+	this.instance = new lib.元件62();
+	this.instance.parent = this;
+	this.instance.setTransform(-159.9,57.8,0.63,0.63,0,0,0,95.4,49.6);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件34, new cjs.Rectangle(-220,26.5,120.2,62.6), null);
+
+
+(lib.元件33 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 3
+	this.instance = new lib.元件61();
+	this.instance.parent = this;
+	this.instance.setTransform(-120.1,45.2,1.105,1.105,0,0,0,124.8,27);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件33, new cjs.Rectangle(-258,15.4,276,59.6), null);
+
+
+(lib.元件32 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 2
+	this.instance = new lib.元件63();
+	this.instance.parent = this;
+	this.instance.setTransform(-150,50.5,0.465,0.465,0,0,0,144.1,44);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件32, new cjs.Rectangle(-217,30.1,134,41), null);
 
 
 (lib.元件24 = function(mode,startPosition,loop) {
@@ -755,6 +721,45 @@ p.nominalBounds = new cjs.Rectangle(41.3,3.1,256.6,57);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.元件18, new cjs.Rectangle(0,0,270.2,98.4), null);
+
+
+(lib.元件6 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 3
+	this.instance = new lib.元件57();
+	this.instance.parent = this;
+	this.instance.setTransform(54.5,15.3,0.272,0.272,0,0,0,200.3,56.4);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件6, new cjs.Rectangle(0,0,109,30.7), null);
+
+
+(lib.元件2 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 3
+	this.instance = new lib.元件56();
+	this.instance.parent = this;
+	this.instance.setTransform(119.2,26.4,0.469,0.469,0,0,0,254.4,54.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件2, new cjs.Rectangle(0,0,238.5,52), null);
+
+
+(lib.元件1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層 1
+	this.instance = new lib.元件60();
+	this.instance.parent = this;
+	this.instance.setTransform(62.4,9.9,2.914,2.914,0,0,0,21.4,3.4);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.元件1, new cjs.Rectangle(0,0,125,19.3), null);
 
 
 (lib.元件52 = function(mode,startPosition,loop) {
@@ -938,14 +943,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,270.2,98.4);
 	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(4).to({_off:false},0).to({regX:118.7,regY:26.2,scaleX:1.8,scaleY:1.8,x:305,y:86.6},8,cjs.Ease.quadInOut).to({regY:26.1,scaleX:1.93,scaleY:1.93,x:305.2,y:84.9},5,cjs.Ease.quadInOut).to({scaleX:1.89,scaleY:1.89,x:305.1,y:85.3},4,cjs.Ease.quadInOut).wait(16).to({regY:26.3,scaleX:1.41,scaleY:1.41,x:305,y:91.1,alpha:0},12,cjs.Ease.cubicIn).to({_off:true},1).wait(212));
 
 	// bg
-	this.instance_16 = new lib.bg();
+	this.instance_16 = new lib.元件55();
 	this.instance_16.parent = this;
-	this.instance_16.setTransform(0,0,3.233,1);
+	this.instance_16.setTransform(485,125,1,1,0,0,0,485,125);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(262));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(485,105.6,970,370.7);
+p.nominalBounds = new cjs.Rectangle(485,105.6,970,322);
 // library properties:
 lib.properties = {
 	id: '3C2BB1652FB40F42ABABBE896AD6B230',
@@ -955,7 +960,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/970x250_atlas_.png?1538102768957", id:"970x250_atlas_"}
+		{src:"images/970x250_atlas_.png?1538114281381", id:"970x250_atlas_"}
 	],
 	preloads: []
 };
