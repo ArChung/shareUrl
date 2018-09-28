@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"320x100_atlas_", frames: [[329,375,139,131],[329,252,155,121],[158,252,169,124],[0,0,403,250],[0,440,142,40],[457,69,43,43],[405,69,50,92],[405,163,42,64],[243,378,79,78],[158,378,83,83],[293,458,17,19],[449,163,43,50],[243,458,48,45],[405,0,79,67],[0,252,156,186]]}
+		{name:"320x100_atlas_", frames: [[158,252,169,124],[0,0,403,250],[0,440,142,40],[243,458,43,43],[329,252,50,92],[381,252,42,64],[243,378,79,78],[158,378,83,83],[329,346,17,19],[324,447,43,50],[381,318,48,45],[324,378,79,67],[0,252,156,186]]}
 ];
 
 
@@ -11,107 +11,93 @@ lib.ssMetadata = [
 
 
 
-(lib.向量圖智慧型物件1 = function() {
+(lib.向量圖智慧型物件 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.向量圖智慧型物件2 = function() {
+(lib.圖層1 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.向量圖智慧型物件 = function() {
+(lib.btn = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.圖層1 = function() {
+(lib.hand = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.btn = function() {
+(lib.m3 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.hand = function() {
+(lib.m4 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.m3 = function() {
+(lib.mm2 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.m4 = function() {
+(lib.mm3 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mm2 = function() {
+(lib.mo1 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mm3 = function() {
+(lib.mo2 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mo1 = function() {
+(lib.mo3 = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mo2 = function() {
+(lib.pen = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mo3 = function() {
-	this.spriteSheet = ss["320x100_atlas_"];
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pen = function() {
-	this.spriteSheet = ss["320x100_atlas_"];
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.qwdqwdqwdq = function() {
 	this.spriteSheet = ss["320x100_atlas_"];
-	this.gotoAndStop(14);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -135,38 +121,27 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib.補間動畫6 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 圖層 4
+	// 圖層 1
 	this.instance = new lib.圖層1();
 	this.instance.parent = this;
-	this.instance.setTransform(-484.2,78.9,2.506,1.395,-6.8);
+	this.instance.setTransform(-331,107.1,0.876,0.876,-12);
 
 	this.instance_1 = new lib.圖層1();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(-471.2,116.3,2.506,1.395,-6.8);
+	this.instance_1.setTransform(0,156.3,1,1,168);
 
 	this.instance_2 = new lib.圖層1();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(-488.9,26.1,2.506,1.395,-6.8);
+	this.instance_2.setTransform(-492.5,122.9,0.876,0.876,-12);
 
 	this.instance_3 = new lib.圖層1();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(-116,-159.2,1.541,1.395,-0.3);
+	this.instance_3.setTransform(-86,158.4,1,1,168);
 
-	this.instance_4 = new lib.圖層1();
-	this.instance_4.parent = this;
-	this.instance_4.setTransform(-530.5,-69.3,1.395,1.395,0.7);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
-
-	// 圖層 1
-	this.instance_5 = new lib.圖層1();
-	this.instance_5.parent = this;
-	this.instance_5.setTransform(-122.1,-105.2,1,1,3);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-534.6,-163,1107.3,625.6);
+p.nominalBounds = new cjs.Rectangle(-532.3,-88.2,592.5,425.4);
 
 
 (lib.補間動畫4 = function(mode,startPosition,loop) {
@@ -320,19 +295,11 @@ p.nominalBounds = new cjs.Rectangle(-41.5,-41.5,83,83);
 	// 圖層 2
 	this.instance = new lib.向量圖智慧型物件();
 	this.instance.parent = this;
-	this.instance.setTransform(348.3,-92.7,0.606,0.606,-5.9);
+	this.instance.setTransform(409.3,-125.6,0.873,0.873,9.1);
 
-	this.instance_1 = new lib.向量圖智慧型物件2();
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(531,-83,0.448,0.448);
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-	this.instance_2 = new lib.向量圖智慧型物件1();
-	this.instance_2.parent = this;
-	this.instance_2.setTransform(452,-86,0.497,0.497);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件53, new cjs.Rectangle(348.3,-103.3,252.3,85.4), null);
+}).prototype = getMCSymbolPrototype(lib.元件53, new cjs.Rectangle(392.2,-125.6,162.8,130.2), null);
 
 
 (lib.元件51 = function(mode,startPosition,loop) {
@@ -826,28 +793,28 @@ p.nominalBounds = new cjs.Rectangle(6.4,6.5,259,85.4);
 	// t42.png
 	this.instance_2 = new lib.元件34();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(85,48.7,0.719,0.719,3.5,0,0,61.6,29.8);
+	this.instance_2.setTransform(88.5,50.2,0.719,0.719,3.5,0,0,61.6,29.8);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(107).to({_off:false},0).to({regX:61.8,regY:29.6,x:85.8,y:35.3},7,cjs.Ease.cubicOut).wait(148));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(107).to({_off:false},0).to({regX:61.8,regY:29.6,x:89.3,y:36.8},7,cjs.Ease.cubicOut).wait(148));
 
 	// p3.png
 	this.instance_3 = new lib.元件53();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(34.2,80.8,0.69,0.69,0,0,0,111.3,29.9);
+	this.instance_3.setTransform(-25.2,91.2,0.758,0.758,0,0,0,111.2,29.9);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(109).to({_off:false},0).to({scaleX:0.47,scaleY:0.47,x:81.3,y:69.9,alpha:1},7,cjs.Ease.cubicOut).to({regX:111.4,scaleX:0.46,scaleY:0.46,x:81.4,y:69.8},1).wait(145));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(109).to({_off:false},0).to({regX:111.4,scaleX:0.51,scaleY:0.51,x:68.9,y:77.4,alpha:1},8,cjs.Ease.cubicOut).wait(145));
 
 	// hand.png
 	this.instance_4 = new lib.元件40();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(261.7,77.2,0.582,0.582,0,0,0,86.1,24.7);
+	this.instance_4.setTransform(256.7,80.5,0.549,0.549,0,0,0,86.2,24.7);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(111).to({_off:false},0).to({regX:86.2,scaleX:0.73,scaleY:0.73,x:261.8,y:72.6,alpha:1},9,cjs.Ease.cubicOut).wait(142));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(111).to({_off:false},0).to({regX:86.3,regY:24.8,scaleX:0.69,scaleY:0.69,x:256.8,y:76.2,alpha:1},9,cjs.Ease.cubicOut).wait(142));
 
 	// 圖層 28 (mask)
 	var mask = new cjs.Shape();
@@ -971,7 +938,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/320x100_atlas_.png?1538116288413", id:"320x100_atlas_"}
+		{src:"images/320x100_atlas_.png?1538127186520", id:"320x100_atlas_"}
 	],
 	preloads: []
 };
